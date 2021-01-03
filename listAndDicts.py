@@ -7,7 +7,7 @@ def run():
         {"firstname": "Luis", "lastname": "Ramirez"},
         {"firstname": "Andres", "lastname": "Rojas"},
         {"firstname": "Felipe", "lastname": "Fajardo"},
-        {"firstname": "Stephanie", "lastname": "Rojas"},
+        {"firstname": "Stephanie", "lastname": "Rojas"}
     ]
 
     super_dict = {
@@ -17,10 +17,11 @@ def run():
     }
 
     for key, value in super_dict.items():
-        print(key, "-", value)
+        print(key, ">", value)
 
-    for i in super_list:
-        print(i["firstname"], "-", i["lastname"])
+    for item in super_list:
+        print(item["firstname"], item["lastname"])
 
-    if __name__ == '__main__':
-        run()
+
+if __name__ == '__main__':
+    run()
