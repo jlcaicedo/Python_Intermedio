@@ -15,6 +15,8 @@ def write():
 
 
 def run():
+    # this read a file
+    read()
     # this create a new file "names.txt
     write()
 
